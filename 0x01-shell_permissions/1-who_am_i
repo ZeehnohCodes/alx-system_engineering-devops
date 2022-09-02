@@ -1,1 +1,2 @@
-whoamI
+#!/bin/bash
+whoami
