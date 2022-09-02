@@ -1,2 +1,2 @@
-chmod u+x school
-file -c -m school
+0 string SCHOOL School data
+!:mime School
