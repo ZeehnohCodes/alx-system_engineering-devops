@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# display processes that contain `bash` keyword
+# shellcheck disable=SC2009
+pids=$(ps auxf | grep -i 'bash')
+echo "$pids"
