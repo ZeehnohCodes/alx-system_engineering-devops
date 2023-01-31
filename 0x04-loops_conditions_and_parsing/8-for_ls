@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Display files in current directory
+# Displays content after first dash
+# "1-add" becomes "add"
+for FILE in *; do
+    cut -d "-" -f2 <<< "$FILE"
+done
