@@ -1,0 +1,31 @@
+Understanding the Web Stack: What Happens When You Type https://www.google.com in Your Browser?
+
+Introduction:
+Have you ever wondered what happens when you type https://www.google.com in your browser and press enter? In this blog post, we will walk through the different steps involved in the process. Understanding how the web stack works is an essential skill for software engineers, and this post will cover the following topics: DNS request, TCP/IP, Firewall, HTTPS/SSL, Load-balancer, Web server, Application server, and Database.
+
+DNS Request:
+The first step in the process is a DNS request. DNS stands for Domain Name System, and it is a system that translates domain names (such as www.google.com) into IP addresses. When you type the URL in your browser, it sends a request to a DNS server to translate the domain name into an IP address. If the DNS server is unable to find the IP address for the domain name, it sends a request to other DNS servers until it finds the correct IP address.
+
+TCP/IP:
+Once the browser has the IP address, it uses the Transmission Control Protocol (TCP) and Internet Protocol (IP) to establish a connection with the server. TCP ensures that data is sent and received in the correct order and without errors. IP, on the other hand, is responsible for routing data packets over the internet.
+
+Firewall:
+Before the request reaches the server, it must pass through a firewall. A firewall is a network security system that monitors and filters incoming and outgoing traffic based on predefined security rules. The firewall ensures that only authorized traffic is allowed to pass through to the server.
+
+HTTPS/SSL:
+The next step in the process is to establish a secure connection between the browser and the server. This is done using HTTPS (Hypertext Transfer Protocol Secure) and SSL (Secure Sockets Layer) encryption. HTTPS is a protocol for secure communication over the internet, while SSL is a cryptographic protocol that ensures the security of data transmitted over the internet.
+
+Load-balancer:
+Once the secure connection is established, the request is sent to a load-balancer. A load-balancer is a device that distributes incoming network traffic across multiple servers to ensure that no single server is overwhelmed with requests. Load-balancers help improve the performance and availability of web applications.
+
+Web Server:
+The load-balancer forwards the request to a web server. A web server is a computer program that delivers content, such as web pages, over the internet. The web server retrieves the requested information and sends it back to the browser in the form of an HTTP response.
+
+Application Server:
+In some cases, the web server may need to communicate with an application server to retrieve data. An application server is a server that runs business logic and other software applications. The application server retrieves the requested data from the database and sends it back to the web server.
+
+Database:
+Finally, the web server sends a request to the database to retrieve any necessary data. The database is a software program that stores and organizes data in a structured way. Once the data is retrieved, it is sent back to the application server, which sends it back to the web server, and finally, to the browser in the form of an HTTP response.
+
+Conclusion:
+In conclusion, when you type https://www.google.com in your browser and press enter, a series of steps take place to retrieve the requested information. Understanding how the web stack works is essential for software engineers and developers. By breaking down the process into its component parts, we can see the many different technologies involved in delivering content over the internet.
