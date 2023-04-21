@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+grep -rl '127.0.0.1' /etc/nginx/ | xargs sed -i 's/127.0.0.1/0.0.0.0/g'
+sudo service nginx restart
+
